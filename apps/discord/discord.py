@@ -96,7 +96,7 @@ class discord_actions:
         """Open the Discord support page in browser"""
 
     def discord_start_lofi():
-        """Listen to Lofi beats with Wumpus""" 
+        """Listen to Lofi beats with Wumpus"""
 
 
 @ctx.action_class("user")
@@ -113,4 +113,3 @@ class EditActions:
 
     def find_previous():
         pass
-
