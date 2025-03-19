@@ -109,7 +109,7 @@ class UserActions:
 @ctx.action_class("edit")
 class EditActions:
     # Suppress the find next and find previous actions when in discord as they do nothing in discord
-    # and may cause undefined behavior for the user. If I could specify that this only allows find 
+    # and may cause undefined behavior for the user. If I could specify that this only allows find
     # and not find_next or find_previous, I would do that instead.
     def find_next():
         pass
