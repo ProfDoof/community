@@ -1,5 +1,6 @@
 code.language: php
 -
+
 tag(): user.code_imperative
 tag(): user.code_object_oriented
 tag(): user.code_libraries
@@ -20,13 +21,6 @@ settings():
     user.code_private_variable_formatter = "PRIVATE_CAMEL_CASE"
     user.code_protected_variable_formatter = "PRIVATE_CAMEL_CASE"
     user.code_public_variable_formatter = "PRIVATE_CAMEL_CASE"
-
-(op | is) loosely equal:
-    user.deprecate_command("2025-03-20", "(op | is) loosely equal", "is weak equal")
-    insert(" == ")
-(op | is) loosely not equal:
-    user.deprecate_command("2025-03-20", "(op | is) loosely not equal", "is weak not equal")
-    insert(" != ")
 
 state try: user.insert_snippet_by_name("tryStatement")
 state catch: user.insert_snippet_by_name("catchStatement")
