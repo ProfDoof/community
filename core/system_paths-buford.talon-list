@@ -1,0 +1,16 @@
+list: user.system_paths
+hostname: buford
+-
+user: C:\Users\johns
+desktop: C:\Users\johns\Desktop
+desk: C:\Users\johns\Desktop
+documents: C:\Users\johns\Documents
+docks: C:\Users\johns\Documents
+downloads: C:\Users\johns\Downloads
+music: C:\Users\johns\Music
+pictures: C:\Users\johns\Pictures
+videos: C:\Users\johns\Videos
+talon home: C:\Users\johns\AppData\Roaming\talon
+talon recordings: C:\Users\johns\AppData\Roaming\talon\recordings
+talon user: C:\Users\johns\AppData\Roaming\talon\user
+profile: C:\Users\johns
